@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768">
-  <defs>
-    <linearGradient id="linear-gradient" x1="-0.02" y1="0.449" x2="0.336" y2="0.935" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#433752"/>
-      <stop offset="1" stop-color="#503f65"/>
-    </linearGradient>
-    <clipPath id="clip-purple_dark_gradient">
-      <rect width="1366" height="768"/>
-    </clipPath>
-  </defs>
-  <g id="purple_dark_gradient" data-name="purple dark gradient" clip-path="url(#clip-purple_dark_gradient)">
-    <rect width="1366" height="768" fill="url(#linear-gradient)"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768"><defs><linearGradient id="linear-gradient" x1="-.02" x2=".336" y1=".449" y2=".935" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#433752"/><stop offset="1" stop-color="#503f65"/></linearGradient><clipPath id="clip-purple_dark_gradient"><rect width="1366" height="768"/></clipPath></defs><g id="purple_dark_gradient" clip-path="url(#clip-purple_dark_gradient)" data-name="purple dark gradient"><rect width="1366" height="768" fill="url(#linear-gradient)"/></g></svg>
