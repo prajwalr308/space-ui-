@@ -1,3 +1,3 @@
 # space-ui-
 website ui design 
-<img src="./sapceui.png" >
+<img src="/spaceui.png" >
