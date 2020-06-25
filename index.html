@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <header> 
+            <img src="images/logo.svg" alt="23andfour logo" class="logo">
+
+                <nav>
+                    <a href="#" class="hide-desktop">
+                        <img src="images/ham.png" alt="toggle menu" class ="menu" id="menu">
+                    </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt=""></li>
+                    <li><a href="">home</a></li>
+                    <li><a href="#blue">products</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+    
+                </ul>
+                </nav>
+        </header>
+       
+        <section id="home">
+            <div class ="hero">
+            
+               
+     <img src="images/bg.svg" alt="server graphic" class="bg">
+            <img src="images/clouds.svg" alt="server graphic" class="shoe">
+            <img src="images/rocket.png" alt="logo layer" class="layer2 rellax" data-rellax-speed="7">
+            
+             <div class="content">
+                <h1>Explore Deep Space</h1>
+                <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Explicabo eius saepe quos consectetur minima distinctio cum eaque velit ipsum impedit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem laborum neque quasi
+                    placeat nisi itaque, error corporis at odio quis.
+                </p>
+            </div>
+
+            <div class="get" >
+                <button type="button" class=" button ">Get Started</button>
+            </div>
+           
+            </div>
+            <a href="#blue"> <img src="images/arrow.png" alt="scroll down" class="scroll hide-mobile show-desktop"></a>
+            
+        </section>
+    </div>
+
+<div class="blue-container" id="blue">
+    <div class="container">
+        <ul>
+            <li>    
+                <img src="#" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem magnam voluptatibus praesentium modi, aspernatur ipsa quam ducimus consectetur? Saepe tenetur possimus vitae. Ipsam asperiores aut vitae rerum exercitationem quibusdam atque!</p>
+            </li>
+            <li>    
+                <img src="#" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem magnam voluptatibus praesentium modi, aspernatur ipsa quam ducimus consectetur? Saepe tenetur possimus vitae. Ipsam asperiores aut vitae rerum exercitationem quibusdam atque!</p>
+            </li>
+            <li>    
+                <img src="#" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem magnam voluptatibus praesentium modi, aspernatur ipsa quam ducimus consectetur? Saepe tenetur possimus vitae. Ipsam asperiores aut vitae rerum exercitationem quibusdam atque!</p>
+            </li>
+            
+
+        
+        </ul>
+
+    </div>
+</div>
+    <div class="gray-container" id="gray">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="user testimonial picture">
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum repudiandae at, dicta et cum, itaque, quia esse obcaecati voluptatum placeat! Vitae molestiae consequatur assumenda libero animi aut, et cumque.
+                        </blockquote>
+                        <figcaption>- jane doe </figcaption>
+                
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/user2.png" alt="user testimonial picture">
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum repudiandae at, dicta et cum, itaque, quia esse obcaecati voluptatum placeat! Vitae molestiae consequatur assumenda libero animi aut, et cumque.
+                        </blockquote>
+                        <figcaption>- john doe </figcaption>
+                
+                    </figure>
+                </li>
+            </ul>
+    
+        </div>
+    
+    </div>
+
+    <div class="container">
+        <h2>Contact us now </h2>
+        <a href="#" class="cta">+919066701488</a>
+    </div>
+
+<footer>
+    <div class="footer-container" id="foot">
+        <div class="container">
+            <a href="#">
+                <img src="images/logo.svg" class="logo" alt="logo">
+                <p class="address">
+                    mysore, 124 <br>karnataka 
+                </p>
+                
+            </a>
+            <ul class="footer-links">
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                   
+                
+                </ul>
+        </div>
+
+    </div>
+</footer>
+<script>
+
+var menu = document.getElementById('menu');
+var nav = document.getElementById('nav');
+var exit = document.getElementById('exit');
+menu.addEventListener('click',function(e){
+    nav.classList.toggle('hide-mobile');
+    e.preventDefault();
+});
+exit.addEventListener('click',function(e){
+    nav.classList.add('hide-mobile');
+    e.preventDefault();
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+
+    <script>
+    var rellax = new Rellax('.rellax');
+
+    </script>
+
+</body>
+</html>
